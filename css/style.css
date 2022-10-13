@@ -1,3 +1,11 @@
+/* 
+Esta es la forma en la que el profesor acomoda estilos en cada clase, id, etiqueta, etc.:
+1. Posicionamiento, dimensiones
+2. Modelo de caja
+3. Tipografía
+4. Visuales
+5. Otros */
+
 :root {
     --hot-pink: #ff52bf;
     --very-pale-cyan: #ebfbff;
@@ -18,4 +26,14 @@ html{
 body {
     font-size: 1.8rem;
     font-family: 'Open Sans', sans-serif;
+}
+
+.hero-main-container {
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+    background-image: url('/assets/bg-hero-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
