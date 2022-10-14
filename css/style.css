@@ -7,33 +7,113 @@ Esta es la forma en la que el profesor acomoda estilos en cada clase, id, etique
 5. Otros */
 
 :root {
-    --hot-pink: #ff52bf;
-    --very-pale-cyan: #ebfbff;
-    --very-dark-cyan: #00252e;
-    --grayish-blue:	#808d99;
+  --hot-pink: #ff52bf;
+  --very-pale-cyan: #ebfbff;
+  --very-dark-cyan: #00252e;
+  --grayish-blue: #808d99;
+  --white: #ffffff;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.8rem;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .hero-main-container {
-    min-width: 320px;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/bg-hero-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 15px 20px;
+}
+
+.huddle-logo {
+  width: 90px;
+  height: auto;
+}
+
+.huddle-logo img {
+  width: 100%;
+}
+
+.cta-btn {
+  width: 100px;
+  height: 25px;
+  padding: 4px;
+  background-color: var(--white);
+  color: #00252e;
+  text-align: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
+}
+
+.hero-wrapper {
     width: 100%;
+    min-width: 320px;
     height: auto;
-    background-image: url('/assets/bg-hero-mobile.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 0 40px;
+    text-align: center;
+    color: var(--very-dark-cyan);
+}
+
+.hero-intro h1 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.hero-intro p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-cta-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    width: 185px;
+    height: 40px;
+    background-color: var(--hot-pink);
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--very-pale-cyan);
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
