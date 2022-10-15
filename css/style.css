@@ -93,7 +93,7 @@ body {
 }
 
 .hero-intro p {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 500;
     line-height: 2.2rem;
     margin-bottom: 20px;
@@ -144,9 +144,10 @@ main {
 .main-card {
   width: 100%;
   max-width: 350px;
-  height: 400px;
+  height: 430px;
   margin: 0 auto;
   margin-top: 35px;
+  padding: 20px 25px;
   border-radius: 15px;
   box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 15px;
@@ -154,3 +155,35 @@ main {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
+
+.card-img-container {
+  width: 90%;
+  /* Had to do a little fix here with max width to the card images so the text wouldn't get pushed down. May have to do some other trick for responsiveness */
+  max-width: 235px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.card-img-container img {
+  width: 100%;
+}
+
+.card-content-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.card-content-container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--very-dark-cyan);
+}
+
+.card-content-container p {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: var(--grayish-blue);
+}
+
