@@ -129,3 +129,28 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+main {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+
+.main-card-container{
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 350px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
