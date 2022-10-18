@@ -76,47 +76,47 @@ body {
 }
 
 .hero-wrapper {
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-    padding: 0 40px 25px;
-    text-align: center;
-    color: var(--very-dark-cyan);
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 0 40px 25px;
+  text-align: center;
+  color: var(--very-dark-cyan);
 }
 
 .hero-intro h1 {
-    margin-top: 45px;
-    margin-bottom: 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 2.1rem;
-    font-weight: 600;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 600;
 }
 
 .hero-intro p {
-    font-size: 1.35rem;
-    font-weight: 500;
-    line-height: 2.2rem;
-    margin-bottom: 20px;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  margin-bottom: 20px;
 }
 
 .hero-cta-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 12px;
-    width: 185px;
-    height: 40px;
-    background-color: var(--hot-pink);
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--very-pale-cyan);
-    letter-spacing: 0.5px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  width: 185px;
+  height: 40px;
+  background-color: var(--hot-pink);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--very-pale-cyan);
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
 }
 
 .hero-mockup .mockup-container {
@@ -131,14 +131,15 @@ body {
 }
 
 main {
+  position: relative;
   min-width: 320px;
   width: 100%;
   height: auto;
 }
 
-.main-card-container{
+.main-card-container {
   width: 100%;
-  padding: 15px 20px;
+  padding: 15px 20px 200px;
 }
 
 .main-card {
@@ -175,7 +176,7 @@ main {
 
 .card-content-container h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 600;
   color: var(--very-dark-cyan);
 }
@@ -186,4 +187,140 @@ main {
   line-height: 1.9rem;
   color: var(--grayish-blue);
 }
+
+.main-cta-card {
+  position: absolute;
+  text-align: center;
+  top: 1540px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  max-width: 400px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
+}
+
+.main-cta-card h2 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--very-dark-cyan);
+}
+
+.main-cta-card .main-cta-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  width: 185px;
+  height: 40px;
+  background-color: var(--hot-pink);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--very-pale-cyan);
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding-top: 100px;
+  background-color: var(--very-dark-cyan);
+}
+
+.footer-contact-info{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.footer-logo-container {
+  width: 135px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.footer-logo-container img {
+  width: 100%;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  color: var(--white);
+  font-size: 1.35rem;
+  line-height: 2.2rem;
+}
+
+footer .contact-info-wrapper .location img {
+  width: 13px;
+  margin-right: 16px;
+  margin-top: 5.3px;
+}
+footer .contact-info-wrapper .phone img {
+  width: 16px;
+  margin-right: 16px;
+  margin-top: 2px;
+}
+footer .contact-info-wrapper .email img {
+  width: 16px;
+  margin-right: 16px;
+  margin-top: 5.3px;
+}
+
+.footer-contact-links {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.contact-links-list li {
+  list-style: none;
+  margin-bottom: 14px;
+}
+.contact-links-list li a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.social-links-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+.social-links-container .fa-brands {
+  color: var(--white);
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.footer-copyright span {
+  margin-right: 4px;
+}
+
 
