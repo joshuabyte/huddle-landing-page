@@ -1,0 +1,206 @@
+@media screen and (min-width: 700px) {
+  .navbar-container {
+    padding: 15px 30px;
+  }
+
+  .huddle-logo {
+    width: 130px;
+    height: auto;
+  }
+
+  .cta-btn {
+    width: 130px;
+    height: 35px;
+    padding: 8px;
+    font-size: 1.3rem;
+  }
+
+  .hero-intro h1 {
+    font-size: 2.65rem;
+  }
+
+  .hero-intro p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-cta-btn {
+    font-size: 1.3rem;
+    padding: 11px;
+  }
+
+  .main-card {
+    display: flex;
+    max-width: 650px;
+    height: 260px;
+  }
+
+  .main-card .card-img-container {
+    margin-right: 25px;
+  }
+
+  .middle-card .card-img-container {
+    margin-right: 0px;
+    margin-left: 25px;
+  }
+
+  /* Little MacGyver for the main cta btn */
+  .main-cta-card {
+    top: 1025px;
+  }
+
+  .middle-card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card-img-container {
+    width: 710px;
+  }
+
+  .card-content-container {
+    text-align: left;
+  }
+
+  .card-content-container h2 {
+    font-size: 1.85rem;
+  }
+
+  .card-content-container p {
+    font-size: 1.4rem;
+    line-height: 2.45rem;
+  }
+
+  .main-cta-card {
+    max-width: 500px;
+  }
+
+  .main-cta-card h2 {
+    font-size: 1.8rem;
+  }
+
+  .main-cta-card .main-cta-btn {
+    width: 185px;
+    height: 40px;
+    padding: 11px;
+    font-size: 1.3rem;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .contact-links-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-social-links {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero-main-container {
+    background-image: url("/assets/bg-hero-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-intro {
+    max-width: 450px;
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  .hero-intro a {
+    text-align: center;
+  }
+
+  .huddle-logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .cta-btn {
+    width: 150px;
+    height: 38px;
+    padding: 8px;
+    font-size: 1.3rem;
+  }
+
+  .hero-intro h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-intro p {
+    font-size: 1.8rem;
+    line-height: 2.65rem;
+  }
+
+  .hero-cta-btn {
+    width: 220px;
+    height: 45px;
+    margin: 0;
+    font-size: 1.3rem;
+    padding: 13px;
+  }
+
+  .main-card {
+    max-width: 1000px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-img-container {
+    /* added margin 0 below to correct the card img container */
+    margin: 0;
+    max-width: 300px;
+  }
+
+  .card-content-container {
+    max-width: 500px;
+    margin-top: 0;
+  }
+
+  .card-content-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .card-content-container p {
+    font-size: 1.55rem;
+    line-height: 2.45rem;
+  }
+
+  /* Little MacGyver for the main cta btn */
+  .main-cta-card {
+    top: 1145px;
+  }
+
+  .main-cta-card {
+    max-width: 580px;
+    height: 155px;
+  }
+  
+  .main-cta-card h2 {
+    font-size: 2rem;
+  }
+
+  .main-cta-card .main-cta-btn {
+  width: 250px;
+    height: 50px;
+    padding: 15px;
+  }
+}
