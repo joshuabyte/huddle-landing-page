@@ -259,6 +259,11 @@ footer {
   background-color: var(--very-dark-cyan);
 }
 
+.footer-wrapper{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .footer-contact-info {
   width: 100%;
   height: auto;
